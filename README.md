@@ -6,7 +6,7 @@ Uses my Interactive Brokers API Web Application in this repository:
 
 https://github.com/hackingthemarkets/interactive-brokers-web-api
 
-Bring up the Interactive Brokers Web API Container
+## Bring up the Interactive Brokers Web API Container
 
 ```
 cd ~/Projects
@@ -16,7 +16,7 @@ docker-compose up
 authenticate with paper trading or live trading
 ```
 
-Set up the Agent dependencies
+## Set up the Agent dependencies
 
 ```
 cd ~/Projects
