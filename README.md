@@ -2,6 +2,10 @@
 
 ai trading agent using interactive brokers api via browser-use
 
+Video Walkthrough:
+
+https://www.youtube.com/watch?v=qeSwQYX-sXo
+
 Uses my Interactive Brokers API Web Application in this repository:
 
 https://github.com/hackingthemarkets/interactive-brokers-web-api
