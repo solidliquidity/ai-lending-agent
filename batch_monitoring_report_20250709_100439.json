@@ -1,0 +1,274 @@
+{
+  "summary": {
+    "batch_monitoring_summary": {
+      "total_companies": 5,
+      "successful_monitoring": 5,
+      "failed_monitoring": 0,
+      "monitoring_date": "2025-07-09T10:04:39.914489",
+      "companies_monitored": [
+        {
+          "name": "Apple Inc",
+          "industry": "Technology",
+          "status": "success",
+          "error": null
+        },
+        {
+          "name": "Microsoft Corp",
+          "industry": "Technology",
+          "status": "success",
+          "error": null
+        },
+        {
+          "name": "Tesla Inc",
+          "industry": "Automotive",
+          "status": "success",
+          "error": null
+        },
+        {
+          "name": "Amazon.com Inc",
+          "industry": "E-commerce",
+          "status": "success",
+          "error": null
+        },
+        {
+          "name": "Netflix Inc",
+          "industry": "Entertainment",
+          "status": "success",
+          "error": null
+        }
+      ]
+    }
+  },
+  "detailed_results": [
+    {
+      "company_name": "Apple Inc",
+      "monitoring_date": "2025-07-09T10:04:26.796474",
+      "sources_monitored": {
+        "google_reviews": {
+          "source": "Google Reviews",
+          "error": "Error crawling https://www.google.com/search?q=Apple+Inc+reviews+United+States: Cannot connect to host localhost:3000 ssl:default [Multiple exceptions: [Errno 61] Connect call failed ('::1', 3000, 0, 0), [Errno 61] Connect call failed ('127.0.0.1', 3000)]"
+        },
+        "news_sources": [
+          {
+            "source": "www.google.com",
+            "error": "Error crawling https://www.google.com/news/search?q=Apple+Inc: Cannot connect to host localhost:3000 ssl:default [Multiple exceptions: [Errno 61] Connect call failed ('::1', 3000, 0, 0), [Errno 61] Connect call failed ('127.0.0.1', 3000)]"
+          },
+          {
+            "source": "finance.yahoo.com",
+            "error": "Error crawling https://finance.yahoo.com/quote/AppleInc: Cannot connect to host localhost:3000 ssl:default [Multiple exceptions: [Errno 61] Connect call failed ('::1', 3000, 0, 0), [Errno 61] Connect call failed ('127.0.0.1', 3000)]"
+          },
+          {
+            "source": "www.reuters.com",
+            "error": "Error crawling https://www.reuters.com/search/news?blob=Apple+Inc: Cannot connect to host localhost:3000 ssl:default [Multiple exceptions: [Errno 61] Connect call failed ('::1', 3000, 0, 0), [Errno 61] Connect call failed ('127.0.0.1', 3000)]"
+          }
+        ],
+        "social_media": [
+          {
+            "source": "twitter.com",
+            "error": "Error crawling https://twitter.com/search?q=Apple%20Inc: Cannot connect to host localhost:3000 ssl:default [Multiple exceptions: [Errno 61] Connect call failed ('::1', 3000, 0, 0), [Errno 61] Connect call failed ('127.0.0.1', 3000)]"
+          },
+          {
+            "source": "www.linkedin.com",
+            "error": "Error crawling https://www.linkedin.com/search/results/companies/?keywords=Apple%20Inc: Cannot connect to host localhost:3000 ssl:default [Multiple exceptions: [Errno 61] Connect call failed ('::1', 3000, 0, 0), [Errno 61] Connect call failed ('127.0.0.1', 3000)]"
+          }
+        ],
+        "company_website": {
+          "source": "Company Website",
+          "error": "Error crawling https://www.apple.com: Cannot connect to host localhost:3000 ssl:default [Multiple exceptions: [Errno 61] Connect call failed ('::1', 3000, 0, 0), [Errno 61] Connect call failed ('127.0.0.1', 3000)]"
+        }
+      },
+      "summary_analysis": "Error generating summary: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}",
+      "company_info": {
+        "name": "Apple Inc",
+        "location": "United States",
+        "website": "https://www.apple.com",
+        "industry": "Technology"
+      },
+      "monitoring_status": "success"
+    },
+    {
+      "company_name": "Microsoft Corp",
+      "monitoring_date": "2025-07-09T10:04:30.621320",
+      "sources_monitored": {
+        "google_reviews": {
+          "source": "Google Reviews",
+          "error": "Error crawling https://www.google.com/search?q=Microsoft+Corp+reviews+United+States: Cannot connect to host localhost:3000 ssl:default [Multiple exceptions: [Errno 61] Connect call failed ('::1', 3000, 0, 0), [Errno 61] Connect call failed ('127.0.0.1', 3000)]"
+        },
+        "news_sources": [
+          {
+            "source": "www.google.com",
+            "error": "Error crawling https://www.google.com/news/search?q=Microsoft+Corp: Cannot connect to host localhost:3000 ssl:default [Multiple exceptions: [Errno 61] Connect call failed ('::1', 3000, 0, 0), [Errno 61] Connect call failed ('127.0.0.1', 3000)]"
+          },
+          {
+            "source": "finance.yahoo.com",
+            "error": "Error crawling https://finance.yahoo.com/quote/MicrosoftCorp: Cannot connect to host localhost:3000 ssl:default [Multiple exceptions: [Errno 61] Connect call failed ('::1', 3000, 0, 0), [Errno 61] Connect call failed ('127.0.0.1', 3000)]"
+          },
+          {
+            "source": "www.reuters.com",
+            "error": "Error crawling https://www.reuters.com/search/news?blob=Microsoft+Corp: Cannot connect to host localhost:3000 ssl:default [Multiple exceptions: [Errno 61] Connect call failed ('::1', 3000, 0, 0), [Errno 61] Connect call failed ('127.0.0.1', 3000)]"
+          }
+        ],
+        "social_media": [
+          {
+            "source": "twitter.com",
+            "error": "Error crawling https://twitter.com/search?q=Microsoft%20Corp: Cannot connect to host localhost:3000 ssl:default [Multiple exceptions: [Errno 61] Connect call failed ('::1', 3000, 0, 0), [Errno 61] Connect call failed ('127.0.0.1', 3000)]"
+          },
+          {
+            "source": "www.linkedin.com",
+            "error": "Error crawling https://www.linkedin.com/search/results/companies/?keywords=Microsoft%20Corp: Cannot connect to host localhost:3000 ssl:default [Multiple exceptions: [Errno 61] Connect call failed ('::1', 3000, 0, 0), [Errno 61] Connect call failed ('127.0.0.1', 3000)]"
+          }
+        ],
+        "company_website": {
+          "source": "Company Website",
+          "error": "Error crawling https://www.microsoft.com: Cannot connect to host localhost:3000 ssl:default [Multiple exceptions: [Errno 61] Connect call failed ('::1', 3000, 0, 0), [Errno 61] Connect call failed ('127.0.0.1', 3000)]"
+        }
+      },
+      "summary_analysis": "Error generating summary: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}",
+      "company_info": {
+        "name": "Microsoft Corp",
+        "location": "United States",
+        "website": "https://www.microsoft.com",
+        "industry": "Technology"
+      },
+      "monitoring_status": "success"
+    },
+    {
+      "company_name": "Tesla Inc",
+      "monitoring_date": "2025-07-09T10:04:33.248132",
+      "sources_monitored": {
+        "google_reviews": {
+          "source": "Google Reviews",
+          "error": "Error crawling https://www.google.com/search?q=Tesla+Inc+reviews+United+States: Cannot connect to host localhost:3000 ssl:default [Multiple exceptions: [Errno 61] Connect call failed ('::1', 3000, 0, 0), [Errno 61] Connect call failed ('127.0.0.1', 3000)]"
+        },
+        "news_sources": [
+          {
+            "source": "www.google.com",
+            "error": "Error crawling https://www.google.com/news/search?q=Tesla+Inc: Cannot connect to host localhost:3000 ssl:default [Multiple exceptions: [Errno 61] Connect call failed ('::1', 3000, 0, 0), [Errno 61] Connect call failed ('127.0.0.1', 3000)]"
+          },
+          {
+            "source": "finance.yahoo.com",
+            "error": "Error crawling https://finance.yahoo.com/quote/TeslaInc: Cannot connect to host localhost:3000 ssl:default [Multiple exceptions: [Errno 61] Connect call failed ('::1', 3000, 0, 0), [Errno 61] Connect call failed ('127.0.0.1', 3000)]"
+          },
+          {
+            "source": "www.reuters.com",
+            "error": "Error crawling https://www.reuters.com/search/news?blob=Tesla+Inc: Cannot connect to host localhost:3000 ssl:default [Multiple exceptions: [Errno 61] Connect call failed ('::1', 3000, 0, 0), [Errno 61] Connect call failed ('127.0.0.1', 3000)]"
+          }
+        ],
+        "social_media": [
+          {
+            "source": "twitter.com",
+            "error": "Error crawling https://twitter.com/search?q=Tesla%20Inc: Cannot connect to host localhost:3000 ssl:default [Multiple exceptions: [Errno 61] Connect call failed ('::1', 3000, 0, 0), [Errno 61] Connect call failed ('127.0.0.1', 3000)]"
+          },
+          {
+            "source": "www.linkedin.com",
+            "error": "Error crawling https://www.linkedin.com/search/results/companies/?keywords=Tesla%20Inc: Cannot connect to host localhost:3000 ssl:default [Multiple exceptions: [Errno 61] Connect call failed ('::1', 3000, 0, 0), [Errno 61] Connect call failed ('127.0.0.1', 3000)]"
+          }
+        ],
+        "company_website": {
+          "source": "Company Website",
+          "error": "Error crawling https://www.tesla.com: Cannot connect to host localhost:3000 ssl:default [Multiple exceptions: [Errno 61] Connect call failed ('::1', 3000, 0, 0), [Errno 61] Connect call failed ('127.0.0.1', 3000)]"
+        }
+      },
+      "summary_analysis": "Error generating summary: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}",
+      "company_info": {
+        "name": "Tesla Inc",
+        "location": "United States",
+        "website": "https://www.tesla.com",
+        "industry": "Automotive"
+      },
+      "monitoring_status": "success"
+    },
+    {
+      "company_name": "Amazon.com Inc",
+      "monitoring_date": "2025-07-09T10:04:36.009107",
+      "sources_monitored": {
+        "google_reviews": {
+          "source": "Google Reviews",
+          "error": "Error crawling https://www.google.com/search?q=Amazon.com+Inc+reviews+United+States: Cannot connect to host localhost:3000 ssl:default [Multiple exceptions: [Errno 61] Connect call failed ('::1', 3000, 0, 0), [Errno 61] Connect call failed ('127.0.0.1', 3000)]"
+        },
+        "news_sources": [
+          {
+            "source": "www.google.com",
+            "error": "Error crawling https://www.google.com/news/search?q=Amazon.com+Inc: Cannot connect to host localhost:3000 ssl:default [Multiple exceptions: [Errno 61] Connect call failed ('::1', 3000, 0, 0), [Errno 61] Connect call failed ('127.0.0.1', 3000)]"
+          },
+          {
+            "source": "finance.yahoo.com",
+            "error": "Error crawling https://finance.yahoo.com/quote/Amazon.comInc: Cannot connect to host localhost:3000 ssl:default [Multiple exceptions: [Errno 61] Connect call failed ('::1', 3000, 0, 0), [Errno 61] Connect call failed ('127.0.0.1', 3000)]"
+          },
+          {
+            "source": "www.reuters.com",
+            "error": "Error crawling https://www.reuters.com/search/news?blob=Amazon.com+Inc: Cannot connect to host localhost:3000 ssl:default [Multiple exceptions: [Errno 61] Connect call failed ('::1', 3000, 0, 0), [Errno 61] Connect call failed ('127.0.0.1', 3000)]"
+          }
+        ],
+        "social_media": [
+          {
+            "source": "twitter.com",
+            "error": "Error crawling https://twitter.com/search?q=Amazon.com%20Inc: Cannot connect to host localhost:3000 ssl:default [Multiple exceptions: [Errno 61] Connect call failed ('::1', 3000, 0, 0), [Errno 61] Connect call failed ('127.0.0.1', 3000)]"
+          },
+          {
+            "source": "www.linkedin.com",
+            "error": "Error crawling https://www.linkedin.com/search/results/companies/?keywords=Amazon.com%20Inc: Cannot connect to host localhost:3000 ssl:default [Multiple exceptions: [Errno 61] Connect call failed ('::1', 3000, 0, 0), [Errno 61] Connect call failed ('127.0.0.1', 3000)]"
+          }
+        ],
+        "company_website": {
+          "source": "Company Website",
+          "error": "Error crawling https://www.amazon.com: Cannot connect to host localhost:3000 ssl:default [Multiple exceptions: [Errno 61] Connect call failed ('::1', 3000, 0, 0), [Errno 61] Connect call failed ('127.0.0.1', 3000)]"
+        }
+      },
+      "summary_analysis": "Error generating summary: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}",
+      "company_info": {
+        "name": "Amazon.com Inc",
+        "location": "United States",
+        "website": "https://www.amazon.com",
+        "industry": "E-commerce"
+      },
+      "monitoring_status": "success"
+    },
+    {
+      "company_name": "Netflix Inc",
+      "monitoring_date": "2025-07-09T10:04:38.041755",
+      "sources_monitored": {
+        "google_reviews": {
+          "source": "Google Reviews",
+          "error": "Error crawling https://www.google.com/search?q=Netflix+Inc+reviews+United+States: Cannot connect to host localhost:3000 ssl:default [Multiple exceptions: [Errno 61] Connect call failed ('::1', 3000, 0, 0), [Errno 61] Connect call failed ('127.0.0.1', 3000)]"
+        },
+        "news_sources": [
+          {
+            "source": "www.google.com",
+            "error": "Error crawling https://www.google.com/news/search?q=Netflix+Inc: Cannot connect to host localhost:3000 ssl:default [Multiple exceptions: [Errno 61] Connect call failed ('::1', 3000, 0, 0), [Errno 61] Connect call failed ('127.0.0.1', 3000)]"
+          },
+          {
+            "source": "finance.yahoo.com",
+            "error": "Error crawling https://finance.yahoo.com/quote/NetflixInc: Cannot connect to host localhost:3000 ssl:default [Multiple exceptions: [Errno 61] Connect call failed ('::1', 3000, 0, 0), [Errno 61] Connect call failed ('127.0.0.1', 3000)]"
+          },
+          {
+            "source": "www.reuters.com",
+            "error": "Error crawling https://www.reuters.com/search/news?blob=Netflix+Inc: Cannot connect to host localhost:3000 ssl:default [Multiple exceptions: [Errno 61] Connect call failed ('::1', 3000, 0, 0), [Errno 61] Connect call failed ('127.0.0.1', 3000)]"
+          }
+        ],
+        "social_media": [
+          {
+            "source": "twitter.com",
+            "error": "Error crawling https://twitter.com/search?q=Netflix%20Inc: Cannot connect to host localhost:3000 ssl:default [Multiple exceptions: [Errno 61] Connect call failed ('::1', 3000, 0, 0), [Errno 61] Connect call failed ('127.0.0.1', 3000)]"
+          },
+          {
+            "source": "www.linkedin.com",
+            "error": "Error crawling https://www.linkedin.com/search/results/companies/?keywords=Netflix%20Inc: Cannot connect to host localhost:3000 ssl:default [Multiple exceptions: [Errno 61] Connect call failed ('::1', 3000, 0, 0), [Errno 61] Connect call failed ('127.0.0.1', 3000)]"
+          }
+        ],
+        "company_website": {
+          "source": "Company Website",
+          "error": "Error crawling https://www.netflix.com: Cannot connect to host localhost:3000 ssl:default [Multiple exceptions: [Errno 61] Connect call failed ('::1', 3000, 0, 0), [Errno 61] Connect call failed ('127.0.0.1', 3000)]"
+        }
+      },
+      "summary_analysis": "Error generating summary: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}",
+      "company_info": {
+        "name": "Netflix Inc",
+        "location": "United States",
+        "website": "https://www.netflix.com",
+        "industry": "Entertainment"
+      },
+      "monitoring_status": "success"
+    }
+  ]
+}

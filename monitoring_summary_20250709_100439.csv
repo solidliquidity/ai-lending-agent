@@ -1,0 +1,6 @@
+Company Name,Industry,Location,Monitoring Date,Has Positive Indicators,Has Negative Indicators,Has Risk Factors,Status
+Apple Inc,Technology,United States,2025-07-09T10:04:26.796474,False,False,False,Success
+Microsoft Corp,Technology,United States,2025-07-09T10:04:30.621320,False,False,False,Success
+Tesla Inc,Automotive,United States,2025-07-09T10:04:33.248132,False,False,False,Success
+Amazon.com Inc,E-commerce,United States,2025-07-09T10:04:36.009107,False,False,False,Success
+Netflix Inc,Entertainment,United States,2025-07-09T10:04:38.041755,False,False,False,Success
